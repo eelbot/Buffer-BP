@@ -4393,9 +4393,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <text x="7.62" y="289.56" size="2.54" layer="97">INPUT PERIPHERALS</text>
 <wire x1="172.72" y1="297.18" x2="172.72" y2="177.8" width="0.1524" layer="97"/>
 <wire x1="259.08" y1="58.42" x2="271.78" y2="58.42" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="58.42" x2="307.34" y2="58.42" width="0.1524" layer="97"/>
-<wire x1="307.34" y1="58.42" x2="327.66" y2="58.42" width="0.1524" layer="97"/>
-<wire x1="327.66" y1="58.42" x2="474.98" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="58.42" x2="474.98" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="474.98" y1="58.42" x2="474.98" y2="177.8" width="0.1524" layer="97"/>
 <wire x1="474.98" y1="177.8" x2="332.74" y2="177.8" width="0.1524" layer="97"/>
 <wire x1="332.74" y1="177.8" x2="302.26" y2="177.8" width="0.1524" layer="97"/>
@@ -4412,8 +4410,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="302.26" y1="256.54" x2="302.26" y2="269.24" width="0.1524" layer="97"/>
 <text x="261.62" y="261.62" size="2.54" layer="97">OUTPUT PERIPHERALS</text>
 <wire x1="137.16" y1="0" x2="271.78" y2="0" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="0" x2="271.78" y2="45.72" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="45.72" x2="271.78" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="0" x2="271.78" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="137.16" y1="45.72" x2="165.1" y2="45.72" width="0.1524" layer="97"/>
 <wire x1="165.1" y1="45.72" x2="165.1" y2="58.42" width="0.1524" layer="97"/>
 <text x="142.24" y="50.8" size="2.54" layer="97">POWER</text>
@@ -4488,8 +4485,8 @@ Mating wall wart : TOL-00298 (and others)</description>
 <instance part="SUPPLY16" gate="G$1" x="396.24" y="165.1"/>
 <instance part="GND16" gate="1" x="325.12" y="147.32"/>
 <instance part="C1" gate="G$1" x="314.96" y="154.94"/>
-<instance part="C2" gate="G$1" x="406.4" y="162.56" rot="R90"/>
-<instance part="GND17" gate="1" x="411.48" y="157.48"/>
+<instance part="C2" gate="G$1" x="411.48" y="157.48"/>
+<instance part="GND17" gate="1" x="411.48" y="147.32"/>
 <instance part="R17" gate="G$1" x="292.1" y="243.84" rot="R180"/>
 <instance part="D9" gate="G$1" x="304.8" y="243.84" rot="R270"/>
 <instance part="D10" gate="G$1" x="304.8" y="236.22" rot="R270"/>
@@ -4683,7 +4680,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="396.24" y1="162.56" x2="396.24" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="154.94" x2="396.24" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="401.32" y1="162.56" x2="396.24" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="162.56" x2="396.24" y2="162.56" width="0.1524" layer="91"/>
 <junction x="396.24" y="162.56"/>
 </segment>
 <segment>
@@ -4898,8 +4895,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="408.94" y1="162.56" x2="411.48" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="162.56" x2="411.48" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="154.94" x2="411.48" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
