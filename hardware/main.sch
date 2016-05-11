@@ -753,8 +753,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="DIL16">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.3048" layer="21"/>
-<wire x1="-10.16" y1="-2.921" x2="10.16" y2="-2.921" width="0.3048" layer="21"/>
 <wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.3048" layer="21"/>
 <wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.3048" layer="21"/>
 <wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.3048" layer="21"/>
@@ -3911,9 +3909,9 @@ Mating wall wart : TOL-00298 (and others)</description>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$7" library="ControllerCard" deviceset="RESISTOR_ARRAY" device=""/>
+<part name="U7" library="ControllerCard" deviceset="RESISTOR_ARRAY" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$8" library="ControllerCard" deviceset="RESISTOR_ARRAY" device=""/>
+<part name="U8" library="ControllerCard" deviceset="RESISTOR_ARRAY" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4021,9 +4019,9 @@ Mating wall wart : TOL-00298 (and others)</description>
 <instance part="SUPPLY5" gate="G$1" x="281.94" y="25.4"/>
 <instance part="GND5" gate="1" x="281.94" y="12.7"/>
 <instance part="GND6" gate="1" x="281.94" y="35.56"/>
-<instance part="U$7" gate="G$1" x="20.32" y="109.22" rot="R180"/>
+<instance part="U7" gate="G$1" x="20.32" y="109.22" rot="R180"/>
 <instance part="GND7" gate="1" x="5.08" y="91.44"/>
-<instance part="U$8" gate="G$1" x="457.2" y="81.28"/>
+<instance part="U8" gate="G$1" x="457.2" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -4276,11 +4274,11 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="281.94" y1="17.78" x2="281.94" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="8B"/>
+<pinref part="U7" gate="G$1" pin="8B"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="7.62" y1="116.84" x2="5.08" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="116.84" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="7B"/>
+<pinref part="U7" gate="G$1" pin="7B"/>
 <wire x1="5.08" y1="114.3" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="111.76" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="109.22" x2="5.08" y2="106.68" width="0.1524" layer="91"/>
@@ -4290,35 +4288,35 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="5.08" y1="99.06" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="114.3" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
 <junction x="5.08" y="114.3"/>
-<pinref part="U$7" gate="G$1" pin="6B"/>
+<pinref part="U7" gate="G$1" pin="6B"/>
 <wire x1="7.62" y1="111.76" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
 <junction x="5.08" y="111.76"/>
-<pinref part="U$7" gate="G$1" pin="5B"/>
+<pinref part="U7" gate="G$1" pin="5B"/>
 <wire x1="7.62" y1="109.22" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
 <junction x="5.08" y="109.22"/>
-<pinref part="U$7" gate="G$1" pin="4B"/>
+<pinref part="U7" gate="G$1" pin="4B"/>
 <wire x1="7.62" y1="106.68" x2="5.08" y2="106.68" width="0.1524" layer="91"/>
 <junction x="5.08" y="106.68"/>
-<pinref part="U$7" gate="G$1" pin="3B"/>
+<pinref part="U7" gate="G$1" pin="3B"/>
 <wire x1="7.62" y1="104.14" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
 <junction x="5.08" y="104.14"/>
-<pinref part="U$7" gate="G$1" pin="2B"/>
+<pinref part="U7" gate="G$1" pin="2B"/>
 <wire x1="7.62" y1="101.6" x2="5.08" y2="101.6" width="0.1524" layer="91"/>
 <junction x="5.08" y="101.6"/>
-<pinref part="U$7" gate="G$1" pin="1B"/>
+<pinref part="U7" gate="G$1" pin="1B"/>
 <wire x1="7.62" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
 <junction x="5.08" y="99.06"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="8B"/>
+<pinref part="U8" gate="G$1" pin="8B"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="469.9" y1="73.66" x2="472.44" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="73.66" x2="477.52" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="1B"/>
+<pinref part="U8" gate="G$1" pin="1B"/>
 <wire x1="469.9" y1="91.44" x2="472.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="91.44" x2="472.44" y2="88.9" width="0.1524" layer="91"/>
 <junction x="472.44" y="73.66"/>
-<pinref part="U$8" gate="G$1" pin="2B"/>
+<pinref part="U8" gate="G$1" pin="2B"/>
 <wire x1="472.44" y1="88.9" x2="472.44" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="86.36" x2="472.44" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="83.82" x2="472.44" y2="81.28" width="0.1524" layer="91"/>
@@ -4327,19 +4325,19 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="472.44" y1="76.2" x2="472.44" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="469.9" y1="88.9" x2="472.44" y2="88.9" width="0.1524" layer="91"/>
 <junction x="472.44" y="88.9"/>
-<pinref part="U$8" gate="G$1" pin="3B"/>
+<pinref part="U8" gate="G$1" pin="3B"/>
 <wire x1="469.9" y1="86.36" x2="472.44" y2="86.36" width="0.1524" layer="91"/>
 <junction x="472.44" y="86.36"/>
-<pinref part="U$8" gate="G$1" pin="4B"/>
+<pinref part="U8" gate="G$1" pin="4B"/>
 <wire x1="469.9" y1="83.82" x2="472.44" y2="83.82" width="0.1524" layer="91"/>
 <junction x="472.44" y="83.82"/>
-<pinref part="U$8" gate="G$1" pin="5B"/>
+<pinref part="U8" gate="G$1" pin="5B"/>
 <wire x1="469.9" y1="81.28" x2="472.44" y2="81.28" width="0.1524" layer="91"/>
 <junction x="472.44" y="81.28"/>
-<pinref part="U$8" gate="G$1" pin="6B"/>
+<pinref part="U8" gate="G$1" pin="6B"/>
 <wire x1="472.44" y1="78.74" x2="469.9" y2="78.74" width="0.1524" layer="91"/>
 <junction x="472.44" y="78.74"/>
-<pinref part="U$8" gate="G$1" pin="7B"/>
+<pinref part="U8" gate="G$1" pin="7B"/>
 <wire x1="469.9" y1="76.2" x2="472.44" y2="76.2" width="0.1524" layer="91"/>
 <junction x="472.44" y="76.2"/>
 </segment>
@@ -4498,7 +4496,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="441.96" y1="116.84" x2="454.66" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="441.96" y1="127" x2="441.96" y2="116.84" width="0.1524" layer="91"/>
 <junction x="441.96" y="116.84"/>
-<pinref part="U$8" gate="G$1" pin="1A"/>
+<pinref part="U8" gate="G$1" pin="1A"/>
 <wire x1="444.5" y1="91.44" x2="441.96" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="441.96" y1="116.84" x2="441.96" y2="91.44" width="0.1524" layer="91"/>
 </segment>
@@ -4513,7 +4511,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <pinref part="U5" gate="A" pin="B3"/>
 <wire x1="373.38" y1="114.3" x2="434.34" y2="114.3" width="0.1524" layer="91"/>
 <label x="454.66" y="114.3" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$8" gate="G$1" pin="2A"/>
+<pinref part="U8" gate="G$1" pin="2A"/>
 <wire x1="434.34" y1="114.3" x2="454.66" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="444.5" y1="88.9" x2="434.34" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="88.9" x2="434.34" y2="114.3" width="0.1524" layer="91"/>
@@ -4536,7 +4534,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="426.72" y1="111.76" x2="454.66" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="127" x2="426.72" y2="111.76" width="0.1524" layer="91"/>
 <junction x="426.72" y="111.76"/>
-<pinref part="U$8" gate="G$1" pin="3A"/>
+<pinref part="U8" gate="G$1" pin="3A"/>
 <wire x1="444.5" y1="86.36" x2="426.72" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="86.36" x2="426.72" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -4555,7 +4553,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="419.1" y1="109.22" x2="454.66" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="127" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
 <junction x="419.1" y="109.22"/>
-<pinref part="U$8" gate="G$1" pin="4A"/>
+<pinref part="U8" gate="G$1" pin="4A"/>
 <wire x1="444.5" y1="83.82" x2="419.1" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="83.82" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -4574,7 +4572,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="411.48" y1="106.68" x2="454.66" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="127" x2="411.48" y2="106.68" width="0.1524" layer="91"/>
 <junction x="411.48" y="106.68"/>
-<pinref part="U$8" gate="G$1" pin="5A"/>
+<pinref part="U8" gate="G$1" pin="5A"/>
 <wire x1="444.5" y1="81.28" x2="411.48" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="81.28" x2="411.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -4593,7 +4591,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="403.86" y1="104.14" x2="454.66" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="127" x2="403.86" y2="104.14" width="0.1524" layer="91"/>
 <junction x="403.86" y="104.14"/>
-<pinref part="U$8" gate="G$1" pin="6A"/>
+<pinref part="U8" gate="G$1" pin="6A"/>
 <wire x1="444.5" y1="78.74" x2="403.86" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="78.74" x2="403.86" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -4612,7 +4610,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="396.24" y1="101.6" x2="454.66" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="127" x2="396.24" y2="101.6" width="0.1524" layer="91"/>
 <junction x="396.24" y="101.6"/>
-<pinref part="U$8" gate="G$1" pin="7A"/>
+<pinref part="U8" gate="G$1" pin="7A"/>
 <wire x1="444.5" y1="76.2" x2="396.24" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="76.2" x2="396.24" y2="101.6" width="0.1524" layer="91"/>
 </segment>
@@ -4631,7 +4629,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="388.62" y1="99.06" x2="454.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="127" x2="388.62" y2="99.06" width="0.1524" layer="91"/>
 <junction x="388.62" y="99.06"/>
-<pinref part="U$8" gate="G$1" pin="8A"/>
+<pinref part="U8" gate="G$1" pin="8A"/>
 <wire x1="444.5" y1="73.66" x2="388.62" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="73.66" x2="388.62" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -4773,7 +4771,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="91.44" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P1"/>
 <wire x1="83.82" y1="132.08" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="1A"/>
+<pinref part="U7" gate="G$1" pin="1A"/>
 <wire x1="83.82" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <junction x="83.82" y="99.06"/>
 </segment>
@@ -4784,7 +4782,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="91.44" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P2"/>
 <wire x1="78.74" y1="132.08" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="2A"/>
+<pinref part="U7" gate="G$1" pin="2A"/>
 <wire x1="78.74" y1="101.6" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
 <junction x="78.74" y="101.6"/>
 </segment>
@@ -4795,7 +4793,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="91.44" y1="104.14" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P3"/>
 <wire x1="73.66" y1="132.08" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="3A"/>
+<pinref part="U7" gate="G$1" pin="3A"/>
 <wire x1="73.66" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 <junction x="73.66" y="104.14"/>
 </segment>
@@ -4806,7 +4804,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="91.44" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P4"/>
 <wire x1="68.58" y1="132.08" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="4A"/>
+<pinref part="U7" gate="G$1" pin="4A"/>
 <wire x1="68.58" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
 <junction x="68.58" y="106.68"/>
 </segment>
@@ -4817,7 +4815,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="91.44" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="P1"/>
 <wire x1="53.34" y1="132.08" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="5A"/>
+<pinref part="U7" gate="G$1" pin="5A"/>
 <wire x1="53.34" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
 <junction x="53.34" y="109.22"/>
 </segment>
@@ -4828,7 +4826,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="91.44" y1="111.76" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="P2"/>
 <wire x1="48.26" y1="132.08" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="6A"/>
+<pinref part="U7" gate="G$1" pin="6A"/>
 <wire x1="48.26" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 <junction x="48.26" y="111.76"/>
 </segment>
@@ -4839,7 +4837,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <wire x1="91.44" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="P3"/>
 <wire x1="43.18" y1="132.08" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="7A"/>
+<pinref part="U7" gate="G$1" pin="7A"/>
 <wire x1="43.18" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
 <junction x="43.18" y="114.3"/>
 </segment>
@@ -4851,7 +4849,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <pinref part="U$3" gate="G$1" pin="P4"/>
 <wire x1="38.1" y1="132.08" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <junction x="38.1" y="116.84"/>
-<pinref part="U$7" gate="G$1" pin="8A"/>
+<pinref part="U7" gate="G$1" pin="8A"/>
 <wire x1="33.02" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
