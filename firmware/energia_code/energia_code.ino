@@ -1,13 +1,13 @@
 // Pin definitions for easy sketch modification
 // INPUTS
-const int in1 = 19;
-const int in2 = 40;
-const int in3 = 39;
-const int in4 = 5;
-const int in5 = 7;
-const int in6 = 8;
-const int in7 = 9;
-const int in8 = 10;
+const int in1 = 7;
+const int in2 = 8;
+const int in3 = 9;
+const int in4 = 10;
+const int in5 = 5;
+const int in6 = 39;
+const int in7 = 40;
+const int in8 = 19;
 
 // OUTPUTS
 const int out1 = 38;
