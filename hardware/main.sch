@@ -4639,13 +4639,6 @@ Mating wall wart : TOL-00298 (and others)</description>
 <label x="96.52" y="12.7" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ENEXT" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="P$36"/>
-<wire x1="71.12" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-<label x="73.66" y="25.4" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="D17" gate="G$1" pin="A"/>
