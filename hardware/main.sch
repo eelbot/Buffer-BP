@@ -3871,7 +3871,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
+<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="D9" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="D10" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="D11" library="SparkFun-LED" deviceset="LED" device="3MM"/>
@@ -3880,13 +3880,13 @@ Mating wall wart : TOL-00298 (and others)</description>
 <part name="D14" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="D15" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="D16" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
-<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
-<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
-<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300"/>
+<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="SMD" value="5.5x2.1mm Barrel"/>
 <part name="U9" library="ControllerCard" deviceset="LM3940" device="SOT223"/>
@@ -3896,7 +3896,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="2.2UF50V10%(1206)" device="" value="33uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="" value="0.47uF"/>
 <part name="D17" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$1" library="ControllerCard" deviceset="4PIN_SOCKET" device=""/>

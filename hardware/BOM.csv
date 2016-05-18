@@ -1,0 +1,11 @@
+Part Name,Package,Quantity,Digikey Part Number
+"2x10 0.1"" Female Headers",PTH,2,S6106-ND
+3mm Blue LED (2mA),PTH,17,754-1914-ND
+330 Resistor,805,17,RMCF0805JT330RCT-ND
+0.47uF Capacitor,805,1,399-8100-1-ND 
+33uF Capacitor,1206,1,445-4060-1-ND 
+"1x2 0.2"" Screw Terminal",PTH,2,ED2609-ND
+"1x4 0.2"" Screw Terminal",PTH,4,ED2611-ND
+5.5x2.1 Barrel Power Jack,SMD,1,CP-002AHPJCT-ND 
+5V-3.3V LDO,SOT223,1,LM3940IMPX-3.3/NOPBCT-ND
+56k Resistor Array (8),DIP,2,4116R-1-563LF-ND
