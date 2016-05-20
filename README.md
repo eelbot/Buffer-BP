@@ -5,16 +5,16 @@ The Buffer Booster Pack is a simple Booster Pack for TI's LaunchPad development 
 ## Pinout
 The Buffer Booster Pack is made for a 40-pin booster pack, and follows the Booster Pack Standard. The external input and output numbering is shown on the board.
 
-|External Input| Booster Pack Pin # ||External Output| Booster Pack Pin # |
-|:------------:|:------------------:||:-------------:|:------------------:|
-|1|7||1|38|
-|2|8||2|37|
-|3|9||3|15|
-|4|10||4|14|
-|5|5||5|34|
-|6|39||6|13|
-|7|40||7|12|
-|8|19||8|11|
+| External Input | Booster Pack Pin # | | External Output | Booster Pack Pin # |
+| :------------: | :------------------: | :--: | :-------------: | :------------------: |
+| 1 | 7 | | 1 | 38 |
+| 2 | 8 | | 2 | 37 |
+| 3 | 9 | | 3 | 15 |
+| 4 | 10 | | 4 | 14 |
+| 5 | 5 | | 5 | 34 |
+| 6 | 39 | | 6 | 13 |
+| 7 | 40 | | 7 | 12 |
+| 8 | 19 | | 8 | 11 |
 
 ## Firmware Examples
 Two examples are included in the firmware folder. There is one for Energia, which uses standard Booster Pack pinouts, and the other is for the F28069 LaunchPad with Code Composer Studio.
