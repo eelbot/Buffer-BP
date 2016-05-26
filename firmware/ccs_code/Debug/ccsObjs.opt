@@ -1,1 +1,0 @@
-"./F2806x_CodeStartBranch.obj" "./F2806x_GlobalVariableDefs.obj" "./F2806x_usDelay.obj" "./main.obj" "../F28069.cmd" "../F2806x_Headers_nonBIOS.cmd" -l"libc.a" 
